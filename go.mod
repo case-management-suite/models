@@ -1,4 +1,4 @@
-module casemanagementsuite.com/models
+module github.com/case-management-suite/models
 
 go 1.19
 

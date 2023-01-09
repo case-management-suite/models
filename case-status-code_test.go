@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"casemanagementsuite.com/models"
+	"github.com/case-management-suite/models"
 )
 
 func TestParseAction(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"casemanagementsuite.com/models"
+	"github.com/case-management-suite/models"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )
