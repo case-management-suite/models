@@ -4,7 +4,6 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/rs/zerolog/log"
 )
 
 func UUID(namespace string) string {
@@ -13,7 +12,7 @@ func UUID(namespace string) string {
 
 func NewCaseRecordUUID() string {
 	id := UUID("case_record")
-	log.Debug().Stack().Str("UUID", id).Str("service", "uuid_util").Msg("New CaseRecordUUID")
+	// log.Debug().Stack().Str("UUID", id).Str("service", "uuid_util").Msg("New CaseRecordUUID")
 	return id
 }
 
